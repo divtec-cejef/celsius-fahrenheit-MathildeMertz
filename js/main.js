@@ -13,7 +13,7 @@
     alert('Entrez un nombre !!');
   } else {
     let farenheit = celsiusSaisi * 9 / 5;
-    alert(`Résultat:, ${farenheit} !`);
+    alert(`Résultat:, ${farenheit} [F]!`);
   }
 
 }()); // Main IIFE
