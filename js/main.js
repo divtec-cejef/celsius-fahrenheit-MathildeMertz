@@ -12,8 +12,8 @@
   if(isNaN(celsiusSaisi)) {
     alert('Entrez un nombre !!');
   } else {
-    let farenheit = celsiusSaisi * 9 / 5;
-    alert(`Résultat:, ${farenheit} [F]!`);
+    let farenheit = celsiusSaisi * 9 / 5 + 32;
+    alert(`Résultat:, ${farenheit} [F], valeur de base: ${celsiusSaisi} [C°]`);
   }
 
 }()); // Main IIFE
